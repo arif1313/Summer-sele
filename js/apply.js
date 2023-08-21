@@ -396,3 +396,19 @@ document.getElementById('cates_div').addEventListener('click',function(){
  
 
   })
+
+  document.getElementById('makePursusBtn').addEventListener('click',function()
+{
+
+    const getTotal =document.getElementById('total');
+    const totalText = getTotal.innerText;
+    getTotal.innerText='00';
+
+    const getTotalPrice = document.getElementById('Total_price');
+    const TotalPricetext =getTotalPrice.innerText;
+    getTotalPrice.innerText ='00';
+    const getDiscount = document.getElementById('Discount');
+ const discountText = getDiscount.innerText;
+ getDiscount.innerText='00';
+    
+})
