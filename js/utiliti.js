@@ -1,3 +1,11 @@
+
+function propagationStop(id){
+
+    document.getElementById(id).addEventListener('click',function(event){
+
+        event.stopImmediatePropagation();
+    })
+};
 function getInputValue(inpurPriceId){
     const getInputFildPrice = document.getElementById(inpurPriceId);
 const getInputFildPriceText = getInputFildPrice.innerText;

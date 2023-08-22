@@ -1,6 +1,5 @@
 
 
-
 function GetTextById(inputTextId){
 
     const getInputFild = document.getElementById(inputTextId);
@@ -16,11 +15,5 @@ function GetTextById(inputTextId){
     makePursusBtn.removeAttribute('disabled');
 
 };
-function propagationStop(id){
 
-    document.getElementById(id).addEventListener('click',function(event){
-
-        event.stopImmediatePropagation();
-    })
-}
 
