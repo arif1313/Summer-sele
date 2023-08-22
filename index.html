@@ -12,13 +12,13 @@
 </head>
 
 <body>
-  <header>
+  <header class="">
     <section>
-      <div class="hero min-h-screen bg-[#F9F6E2] px-60 py-20">
-        <div class="hero-content text-center flex gap-10">
+      <div class="hero min-h-screen bg-[#F9F6E2] px-5 md:px-10 lg:px-60 py-5 lg:py-20">
+        <div class="hero-content text-center  flex-col-reverse lg:flex-row gap-10">
           <div class="max-w-md">
             <h2 class="text-2xl mb-7"> ---SALE FEVER---</h2>
-            <h1 class="text-3xl font-bold">Purchase TK 200 or above & get <span class="text-[#E527B2]">20%
+            <h1 class="text-3xl font-bold">Purchase TK 200 or <br>above & get <span class="text-[#E527B2]">20%
                 off</span></h1>
             <div class="flex gap-6 items-center my-10">
               <div>
@@ -39,26 +39,28 @@
       </div>
     </section>
   </header>
-  <main class="bg-[#F8F8F8] p-20 ">
-    <section class="flex gap-9">
+  <main class="bg-[#F8F8F8] p-5 md:p-10 lg:p-20 ">
+    <section class="flex flex-col lg:flex-row gap-9">
       <!-- card div -->
 
-      <div>
+      <div class="">
         <!-- kitchin secton -->
-        <h1 class="text-4xl font-semibold mb-10">Kitchenware</h1>
-        <section class="mb-10 flex gap-7">
+        <h1 class="text-4xl font-semibold mb-10 text-center lg:text-left">Kitchenware</h1>
+      
+          
+        <section class="mb-10 grid justify-center lg:justify-start grid-cols-1 md:grid-cols-2 lg:flex gap-7 px-10 md:px-20 lg:px-0  ">
           <div id="Accessories1_div" class="card w-64 bg-base-100 shadow-xl py-5 text-center shadow-none">
             <figure>
               <div class="bg-[#1111110d] w-56 py-5 mb-5 flex items-center justify-center"><img src="./images/prod1.png"
                   alt="" /></div>
             </figure>
-            <div class="text-center flex justify-center items-center ">
+            <div class="text-center flex justify-center items-center " >
 
-              <div class="rating w-20">
+              <div  id="rating1" class="rating w-20" >
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400"  />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400"checked />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
               </div>
 
@@ -74,7 +76,7 @@
             </figure>
             <div class="text-center flex justify-center items-center ">
 
-              <div class="rating w-20">
+              <div id="rating2" class="rating w-20">
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
@@ -94,24 +96,27 @@
             </figure>
             <div class="text-center flex justify-center items-center ">
 
-              <div class="rating w-20">
-                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked />
+              <div id="rating3" class="rating w-20">
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked/>
               </div>
 
 
             </div>
             <h3 id="coocker" class=" font-semibold">Home Cooker</h3>
-            <p class="text-[#11111180]"><span id="cooker_price">49.00</span> TK</p>
+            <p class="text-[#11111180]"><span id="coocker_price">49.00</span> TK</p>
           </div>
 
         </section>
+       
         <!-- sports secton -->
-        <h1 class="text-4xl font-semibold mb-10">Sportswear</h1>
-        <section class="mb-10 flex gap-7">
+         <h1 class="text-4xl font-semibold  mb-10 text-center lg:text-left">Sportswear</h1>
+    
+       
+         <section class="mb-10 grid justify-center lg:justify-start grid-cols-1 md:grid-cols-2 lg:flex gap-7 px-10 md:px-20 lg:px-0  ">
           <div id="cap_div" class="card w-64 bg-base-100 shadow-xl py-5 text-center shadow-none">
             <figure>
               <div class="bg-[#1111110d] w-56 py-5 mb-5 flex items-center justify-center"><img src="./images/prod4.png"
@@ -119,11 +124,11 @@
             </figure>
             <div class="text-center flex justify-center items-center ">
 
-              <div class="rating w-20">
-                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked />
+              <div id="rating4" class="rating w-20">
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked/>
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
               </div>
 
@@ -139,9 +144,9 @@
             </figure>
             <div class="text-center flex justify-center items-center ">
 
-              <div class="rating w-20">
+              <div id="rating5" class="rating w-20">
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked/>
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
@@ -159,7 +164,7 @@
             </figure>
             <div class="text-center flex justify-center items-center ">
 
-              <div class="rating w-20">
+              <div id="rating6" class="rating w-20">
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked />
                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
@@ -174,22 +179,22 @@
           </div>
 
         </section>
+      
       </div>
       <!-- java work div -->
-      <div class="flex flex-col gap-5 flex-auto py-20">
+      <div class="flex flex-col gap-5 flex-auto py-5 md:py-10 lg:py-20 px-3 md:px-20 lg:px-0  ">
         <div class="bg-[#FFFF] p-6">
           <h1 class="text-xl font-medium mb-4">Have coupon?</h1>
-          <div class="flex"> <input id="inputCouponCode"
-              class="border border-[#11111126] rounded-l-lg text-[#11111166] px-5" type="text"
-              placeholder="Coupon code">
+          <div class="flex ">
+             <input id="inputCouponCode" class="border border-[#11111126] rounded-l-lg text-[#11111166] w-48 md:w-96 lg:w-auto px-5"  type="text" placeholder="Coupon code">
             <button id="applyBtn"
-              class="px-5 btn  bg-[#E527B2] rounded-r-xl text-[#FFF] font-semibold text-lg rounded-l-none" disabled>
+              class="px-5 btn  bg-[#E527B2] rounded-r-xl text-[#FFF] font-semibold text-lg rounded-l-none " disabled>
               Apply</button>
           </div>
         </div>
         <div class="bg-[#FFFF] p-6">
 
-          <div id="blank_div" class="text-xl font-medium">
+          <div id="blank_div" class="text-xl font-medium p-5">
 
           </div>
 
@@ -207,16 +212,16 @@
         <dialog id="my_modal_33" class="modal">
           <form method="dialog" class="  ">
 
-            <div class="hero  bg-base-200 rounded-lg block px-36 py-10">
+            <div class="hero  bg-base-200 rounded-lg block px-5 md:px-16 lg:px-36 py-5 md:py-16 lg:py-10">
 
-              <div>
+              <div class="flex justify-center">
                 <img src="images/congo.png" alt="">
               </div>
-              <h1 class="text-2xl font-semibold">Congradulation</h1>
-              <p>Your Purchase the product</p>
+              <h1 class=" text-xl md:text-2xl lg:text-3xl font-bold pb-3 text-center">Congratulations</h1>
+              <p class="text-[#11111180]">Your Purchase the product</p>
               <div class="modal-action flex justify-center">
                 <!-- if there is a button in form, it will close the modal -->
-                <button class="btn  btn-primary bg-[#E527B2] hover:bg-[#E527B2] border-none ">Go Home</button>
+                <button class="btn  btn-primary bg-[#E527B2] hover:bg-[#E527B2] border-none text-[#FFF] font-semibold ">Go Home</button>
               </div>
 
             </div>
@@ -229,10 +234,12 @@
 
     </section>
   </main>
+  
+ 
+  <script src="js/function.js  "></script>
   <script src="js/utiliti.js"></script>
-  <script src="js/apply.js  "></script>
-  <script src="js/pursus.js  "></script>
-  \
+  <script src="js/action.js  "></script>
+  
 </body>
 
 </html>
